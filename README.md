@@ -1,7 +1,16 @@
-s { text-decoration:none;}
+// resets
+s { text-decoration:none; } //strike-through
+em { font-style: normal; font-weight: bold; } //italic emphasis
+
+
+// colors
 s { color: green }
+em { color: blue }
 
 # Лабы по ПиАПС
+
+~~This is green~~
+_this is blue_
 
 ~~Лаба 1 - готова~~
 
