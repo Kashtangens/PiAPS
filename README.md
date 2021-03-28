@@ -1,9 +1,9 @@
 # Лабы по ПиАПС
 <br>
 
-<span style="color:blue">
+<span style="color:red">
 
-some *This is Blue italic.* text
+**some *This is Blue italic.* text**
 
 </span>
 
