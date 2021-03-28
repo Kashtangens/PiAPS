@@ -125,9 +125,11 @@ namespace Lab2_Server
                 // Если не надо, то работаем
                 if (listener.Pending())
                 {
+                    // Строчка для дебага и проверки наличия подключения
+                    //Console.WriteLine("Есть попытка подключения");
                     Socket sock = listener.AcceptSocket();
                     sock.Receive(bytes);
-                    mes = bytes.ToString();
+                    mes = System.Text.Encoding.UTF8.GetString(bytes);
                     Client client;
                     client.name = mes;
                     client.socket = sock;
@@ -169,7 +171,7 @@ namespace Lab2_Server
                             {
                                 endpoint = client.socket.Receive(messageBytes);
                                 messageBytes[endpoint] = 0;
-                                message += messageBytes.ToString();
+                                message += System.Text.Encoding.UTF8.GetString(messageBytes);
                             }
                             // Вызов делегата
                             receiveMessage?.Invoke(client.name, (client.socket.RemoteEndPoint as IPEndPoint).Address, message);
