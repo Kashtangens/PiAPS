@@ -1,6 +1,12 @@
 # Лабы по ПиАПС
 <br>
 
+<span style="color:blue">
+
+some *This is Blue italic.* text
+
+</span>
+
 **Лаба 1 - *готова***
 <br>
 
