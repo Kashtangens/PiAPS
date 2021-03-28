@@ -1,0 +1,9 @@
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-Server\Lab2-Server\bin\Debug\netcoreapp3.1\Lab2-Server.deps.json
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-Server\Lab2-Server\bin\Debug\netcoreapp3.1\Lab2-Server.dll
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-Server\Lab2-Server\bin\Debug\netcoreapp3.1\Lab2-Server.pdb
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-Server\Lab2-Server\obj\Debug\netcoreapp3.1\Lab2-Server.csprojAssemblyReference.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-Server\Lab2-Server\obj\Debug\netcoreapp3.1\Lab2-Server.AssemblyInfoInputs.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-Server\Lab2-Server\obj\Debug\netcoreapp3.1\Lab2-Server.AssemblyInfo.cs
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-Server\Lab2-Server\obj\Debug\netcoreapp3.1\Lab2-Server.csproj.CoreCompileInputs.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-Server\Lab2-Server\obj\Debug\netcoreapp3.1\Lab2-Server.dll
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-Server\Lab2-Server\obj\Debug\netcoreapp3.1\Lab2-Server.pdb

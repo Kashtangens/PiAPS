@@ -1,0 +1,16 @@
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-View\Lab2-View\bin\Debug\netcoreapp3.1\Lab2-View.exe
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-View\Lab2-View\bin\Debug\netcoreapp3.1\Lab2-View.deps.json
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-View\Lab2-View\bin\Debug\netcoreapp3.1\Lab2-View.runtimeconfig.json
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-View\Lab2-View\bin\Debug\netcoreapp3.1\Lab2-View.runtimeconfig.dev.json
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-View\Lab2-View\bin\Debug\netcoreapp3.1\Lab2-View.dll
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-View\Lab2-View\bin\Debug\netcoreapp3.1\Lab2-View.pdb
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-View\Lab2-View\bin\Debug\netcoreapp3.1\Lab2-Server.dll
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-View\Lab2-View\bin\Debug\netcoreapp3.1\Lab2-Server.pdb
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-View\Lab2-View\obj\Debug\netcoreapp3.1\Lab2-View.csprojAssemblyReference.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-View\Lab2-View\obj\Debug\netcoreapp3.1\Lab2-View.AssemblyInfoInputs.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-View\Lab2-View\obj\Debug\netcoreapp3.1\Lab2-View.AssemblyInfo.cs
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-View\Lab2-View\obj\Debug\netcoreapp3.1\Lab2-View.csproj.CoreCompileInputs.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-View\Lab2-View\obj\Debug\netcoreapp3.1\Lab2-View.csproj.CopyComplete
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-View\Lab2-View\obj\Debug\netcoreapp3.1\Lab2-View.dll
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-View\Lab2-View\obj\Debug\netcoreapp3.1\Lab2-View.pdb
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба2\Lab2-View\Lab2-View\obj\Debug\netcoreapp3.1\Lab2-View.genruntimeconfig.cache
