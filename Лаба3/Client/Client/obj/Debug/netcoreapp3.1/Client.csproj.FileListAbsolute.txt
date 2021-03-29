@@ -1,9 +1,9 @@
 C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба3\Client\Client\bin\Debug\netcoreapp3.1\Client.deps.json
 C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба3\Client\Client\bin\Debug\netcoreapp3.1\Client.dll
 C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба3\Client\Client\bin\Debug\netcoreapp3.1\Client.pdb
-C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба3\Client\Client\obj\Debug\netcoreapp3.1\Client.csprojAssemblyReference.cache
 C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба3\Client\Client\obj\Debug\netcoreapp3.1\Client.AssemblyInfoInputs.cache
 C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба3\Client\Client\obj\Debug\netcoreapp3.1\Client.AssemblyInfo.cs
 C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба3\Client\Client\obj\Debug\netcoreapp3.1\Client.csproj.CoreCompileInputs.cache
 C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба3\Client\Client\obj\Debug\netcoreapp3.1\Client.dll
 C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба3\Client\Client\obj\Debug\netcoreapp3.1\Client.pdb
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба3\Client\Client\obj\Debug\netcoreapp3.1\Client.csprojAssemblyReference.cache

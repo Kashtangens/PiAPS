@@ -115,6 +115,7 @@ namespace Lab2_Server
         {
             byte[] bytes = new byte[1024];
             string mes;
+            int endPoint = 0;
             bool isClosing = false;
             while (!isClosing)
             {
@@ -128,8 +129,8 @@ namespace Lab2_Server
                     // Строчка для дебага и проверки наличия подключения
                     //Console.WriteLine("Есть попытка подключения");
                     Socket sock = listener.AcceptSocket();
-                    sock.Receive(bytes);
-                    mes = System.Text.Encoding.UTF8.GetString(bytes);
+                    endPoint = sock.Receive(bytes);
+                    mes = System.Text.Encoding.UTF8.GetString(bytes, 0, endPoint);
                     Client client;
                     client.name = mes;
                     client.socket = sock;
@@ -170,24 +171,39 @@ namespace Lab2_Server
                             while (client.socket.Available > 0)
                             {
                                 endpoint = client.socket.Receive(messageBytes);
-                                messageBytes[endpoint] = 0;
+                                if (endpoint < 1024)
+                                {
+                                    messageBytes[endpoint] = 0;
+                                }
                                 message += System.Text.Encoding.UTF8.GetString(messageBytes);
                             }
                             // Вызов делегата
                             receiveMessage?.Invoke(client.name, (client.socket.RemoteEndPoint as IPEndPoint).Address, message);
                             // Отправка сообщения другим клиентам
+                            message = client.name + ": " + message;
                             foreach (Client send_client in clients)
                             {
-                                if (send_client.socket != client.socket)
+                                Console.WriteLine("SENDING: " + message);
+                                byte[] sendBytes = new byte[message.Length];
+                                sendBytes = System.Text.Encoding.UTF8.GetBytes(message);
+                                try
                                 {
-                                    message = client.name + " " + message;
-                                    byte[] sendBytes = new byte[message.Length];
                                     send_client.socket.Send(sendBytes);
+                                }
+                                catch(Exception e)
+                                {
+                                    send_client.socket.Close();
                                 }
                             }
                         }
                     }
+                    else
+                    {
+                        client.socket.Close();
+                    }
                 }
+                // Сюда добавить удаление клиентов, у которых закрыты сокеты
+                
                 clientMutex.ReleaseMutex();
             }
         }

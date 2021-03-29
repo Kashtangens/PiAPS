@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Net;
+using Client;
 
 namespace Lab3_View
 {
@@ -20,9 +22,64 @@ namespace Lab3_View
     /// </summary>
     public partial class MainWindow : Window
     {
+        const int port = 600;
+        Client.Client client;
+
         public MainWindow()
         {
             InitializeComponent();
+            // Создаем экземпляр клиента
+            client = new Client.Client();
+            client.connectEnding = connectEnding;
+            client.receivedMessage = receivedMessage;
+        }
+
+        private void SendButton_Click(object sender, RoutedEventArgs e)
+        {
+            client.Send(SendMessageTextBox.Text);
+        }
+
+        private void ConnectDisconnectButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (client.isConnected)
+            {
+                client.Disconnect();
+            }
+            else 
+            {
+                IPAddress addr = IPAddress.Parse(IpTextBox.Text);
+                client.Connect(addr, port);
+                client.Send(UserNameTextBox.Text);
+            }    
+        }
+
+        private void connectEnding(Client.ConnectStatus connectStatus)
+        {
+            switch (connectStatus)
+            {
+                case ConnectStatus.Connected:
+                    ReceivedMessageTextBox.AppendText("\nСоедниение установлено\n");
+                    break;
+                case ConnectStatus.Disconnected:
+                    ReceivedMessageTextBox.AppendText("\nСоедниение разорвано\n");
+                    break;
+                case ConnectStatus.Error:
+                    ReceivedMessageTextBox.AppendText("\nПроизошла ошибка при соединении\n");
+                    break;
+            }
+        }
+
+        private void receivedMessage(string message)
+        {
+            Dispatcher.Invoke(() => ReceivedMessageTextBox.AppendText("\n"+message));
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            if (client.isConnected)
+            {
+                client.Disconnect();
+            }
         }
     }
 }
