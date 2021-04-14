@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arkan\\Desktop\\Arkadiy\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\Лаба3\\Lab3-View\\Lab3-View\\Lab3-View.csproj",
+      "projectUniqueName": "C:\\Users\\arkan\\Desktop\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\PiAPS\\Лаба3\\Lab3-View\\Lab3-View\\Lab3-View.csproj",
       "projectName": "Lab3-View",
-      "projectPath": "C:\\Users\\arkan\\Desktop\\Arkadiy\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\Лаба3\\Lab3-View\\Lab3-View\\Lab3-View.csproj",
+      "projectPath": "C:\\Users\\arkan\\Desktop\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\PiAPS\\Лаба3\\Lab3-View\\Lab3-View\\Lab3-View.csproj",
       "packagesPath": "C:\\Users\\arkan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arkan\\Desktop\\Arkadiy\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\Лаба3\\Lab3-View\\Lab3-View\\obj\\",
+      "outputPath": "C:\\Users\\arkan\\Desktop\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\PiAPS\\Лаба3\\Lab3-View\\Lab3-View\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\arkan\\Desktop\\Arkadiy\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\Лаба3\\Client\\Client\\Client.csproj": {
-              "projectPath": "C:\\Users\\arkan\\Desktop\\Arkadiy\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\Лаба3\\Client\\Client\\Client.csproj"
+            "C:\\Users\\arkan\\Desktop\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\PiAPS\\Лаба3\\Client\\Client\\Client.csproj": {
+              "projectPath": "C:\\Users\\arkan\\Desktop\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\PiAPS\\Лаба3\\Client\\Client\\Client.csproj"
             }
           }
         }
@@ -86,7 +86,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
