@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arkan\\Desktop\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\PiAPS\\Лаба2\\Lab2-Server\\Lab2-Server\\Lab2-Server.csproj",
+      "projectUniqueName": "C:\\Users\\arkan\\Desktop\\Arkadiy\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\Лаба2\\Lab2-Server\\Lab2-Server\\Lab2-Server.csproj",
       "projectName": "Lab2-Server",
-      "projectPath": "C:\\Users\\arkan\\Desktop\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\PiAPS\\Лаба2\\Lab2-Server\\Lab2-Server\\Lab2-Server.csproj",
+      "projectPath": "C:\\Users\\arkan\\Desktop\\Arkadiy\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\Лаба2\\Lab2-Server\\Lab2-Server\\Lab2-Server.csproj",
       "packagesPath": "C:\\Users\\arkan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arkan\\Desktop\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\PiAPS\\Лаба2\\Lab2-Server\\Lab2-Server\\obj\\",
+      "outputPath": "C:\\Users\\arkan\\Desktop\\Arkadiy\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\Лаба2\\Lab2-Server\\Lab2-Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

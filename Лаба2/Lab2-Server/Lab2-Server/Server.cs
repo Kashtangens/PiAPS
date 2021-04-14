@@ -202,8 +202,19 @@ namespace Lab2_Server
                         client.socket.Close();
                     }
                 }
-                // Сюда добавить удаление клиентов, у которых закрыты сокеты
-                
+                // Удаление клиентов, у которых закрыты сокеты
+                int i = 0;
+                while (i < clients.Count)
+                {
+                    if (!clients[i].socket.Connected)
+                    {
+                        clients.RemoveAt(i);
+                    }
+                    else
+                    {
+                        i++;
+                    }
+                }
                 clientMutex.ReleaseMutex();
             }
         }

@@ -46,7 +46,6 @@ namespace Client
 
         #endregion
 
-
         #region Delegates
         /// <summary>
         /// Делегат получения сообщения
@@ -105,9 +104,17 @@ namespace Client
         /// Функция отправки сообщения на сервер
         /// </summary>
         /// <param name="message">Отправляемое сообщение</param>
-        public void Send(string message)
+        public int Send(string message)
         {
-            socket.Send(System.Text.Encoding.UTF8.GetBytes(message));
+            try 
+            { 
+                socket.Send(System.Text.Encoding.UTF8.GetBytes(message));
+                return 0;
+            }
+            catch(Exception e)
+            {
+                return 1;
+            }
         }
 
         /// <summary>

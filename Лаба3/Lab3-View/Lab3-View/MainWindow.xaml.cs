@@ -35,8 +35,12 @@ namespace Lab3_View
         }
 
         private void SendButton_Click(object sender, RoutedEventArgs e)
-        {
-            client.Send(SendMessageTextBox.Text);
+        {           
+            if(client.Send(SendMessageTextBox.Text) != 0)
+            {
+                ReceivedMessageTextBox.AppendText("\nПроизошла ошибка при отправке данных на сервер\n");
+            }
+
         }
 
         private void ConnectDisconnectButton_Click(object sender, RoutedEventArgs e)
