@@ -1,0 +1,15 @@
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба5\Lab5\Lab5\bin\Debug\Lab5.exe.config
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба5\Lab5\Lab5\bin\Debug\Lab5.exe
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба5\Lab5\Lab5\bin\Debug\Lab5.pdb
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба5\Lab5\Lab5\obj\Debug\Lab5.csprojAssemblyReference.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба5\Lab5\Lab5\obj\Debug\MainWindow.g.cs
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба5\Lab5\Lab5\obj\Debug\App.g.cs
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба5\Lab5\Lab5\obj\Debug\Lab5_MarkupCompile.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба5\Lab5\Lab5\obj\Debug\Lab5_MarkupCompile.lref
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба5\Lab5\Lab5\obj\Debug\MainWindow.baml
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба5\Lab5\Lab5\obj\Debug\Lab5.g.resources
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба5\Lab5\Lab5\obj\Debug\Lab5.Properties.Resources.resources
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба5\Lab5\Lab5\obj\Debug\Lab5.csproj.GenerateResource.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба5\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба5\Lab5\Lab5\obj\Debug\Lab5.exe
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба5\Lab5\Lab5\obj\Debug\Lab5.pdb
