@@ -20,11 +20,11 @@ public class Service : IService
 	// инициализация рейсов
 	Trip[] trips =
 	{
-		new Trip(0, 10),
-		new Trip(0, 50),
-		new Trip(1, 2),
-		new Trip(2, 12),
-		new Trip(2, 0)
+		new Trip(0, 10, "10:00"),
+		new Trip(0, 50, "20:00"),
+		new Trip(1, 2, "12:00"),
+		new Trip(2, 12, "14:30"),
+		new Trip(2, 0, "15:45")
 	};
 
 
@@ -49,21 +49,52 @@ public class Service : IService
 	/// <summary>
 	/// Функция получения количества билета по рейсу
 	/// </summary>
-	/// <param name="trip">Рейс</param>
+	/// <param name="wayName">Название маршрута</param>
+	/// <param name="time">Время маршрута</param>
 	/// <returns>Количество билетов</returns>
-    public int GetTicketsCount(Trip trip)
+	public int GetTicketsCount(string wayName, string time)
     {
-        throw new NotImplementedException();
+		int res = -1;
+		foreach (Trip trip in trips)
+        {
+			if (trip.Time == time)
+            {
+				foreach (Way way in ways)
+                {
+					if (way.WayName == wayName)
+                    {
+						res = trip.TicketsCount;
+                    }
+                }
+            }
+        }
+		return res;
     }
 
 	/// <summary>
 	/// Функция получения списка рейсов по номеру пути
 	/// </summary>
-	/// <param name="wayName"></param>
+	/// <param name="wayName">Название маршрута</param>
 	/// <returns></returns>
     public List<Trip> GetTrip(string wayName)
     {
-        throw new NotImplementedException();
+		List<Trip> returnTrips = new List<Trip>();
+		int wayNumber = -1;
+		foreach (Way way in ways)
+        {
+			if (way.WayName == wayName)
+            {
+				wayNumber = way.WayNumber;
+            }
+        }
+		foreach (Trip trip in trips)
+        {
+			if (trip.WayNumber == wayNumber)
+            {
+				returnTrips.Add(trip);
+            }
+        }
+		return returnTrips;
     }
 
 	/// <summary>
@@ -76,6 +107,16 @@ public class Service : IService
 	/// </returns>
 	public bool BuyTicketOnTrip(Trip trip)
 	{
-		throw new NotImplementedException();
+		for (int i = 0; i < trips.Length; i++) {
+			if (trips[i].Time == trip.Time && trips[i].WayNumber == trip.WayNumber)
+			{
+				if (trips[i].TicketsCount > 0)
+				{
+					trips[i].TicketsCount = trips[i].TicketsCount - 1;
+					return true;
+				}
+			}
+		}
+		return false;
 	}
 }

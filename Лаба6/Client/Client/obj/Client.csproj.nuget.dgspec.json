@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arkan\\Desktop\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\PiAPS\\Лаба6\\Client\\Client\\Client.csproj": {}
+    "C:\\Users\\arkan\\Desktop\\Arkadiy\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\Лаба6\\Client\\Client\\Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arkan\\Desktop\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\PiAPS\\Лаба6\\Client\\Client\\Client.csproj": {
+    "C:\\Users\\arkan\\Desktop\\Arkadiy\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\Лаба6\\Client\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arkan\\Desktop\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\PiAPS\\Лаба6\\Client\\Client\\Client.csproj",
+        "projectUniqueName": "C:\\Users\\arkan\\Desktop\\Arkadiy\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\Лаба6\\Client\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "C:\\Users\\arkan\\Desktop\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\PiAPS\\Лаба6\\Client\\Client\\Client.csproj",
+        "projectPath": "C:\\Users\\arkan\\Desktop\\Arkadiy\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\Лаба6\\Client\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\arkan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arkan\\Desktop\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\PiAPS\\Лаба6\\Client\\Client\\obj\\",
+        "outputPath": "C:\\Users\\arkan\\Desktop\\Arkadiy\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\Лаба6\\Client\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

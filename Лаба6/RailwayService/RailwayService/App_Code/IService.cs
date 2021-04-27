@@ -24,7 +24,7 @@ public interface IService
 
 	// Посмотреть наличие билетов
 	[OperationContract]
-	int GetTicketsCount(Trip trip);
+	int GetTicketsCount(string wayName, string time);
 
 	// Заказать билет на рейс
 	[OperationContract]
@@ -57,6 +57,7 @@ public class CompositeType
 public class Trip
 {
 	int wayNumber;
+	string time;
 	int ticketsCount;
 
 	[DataMember]
@@ -67,16 +68,25 @@ public class Trip
 	}
 
 	[DataMember]
-	public int TicketsCount
-    {
+	internal int TicketsCount
+	{
 		get { return ticketsCount; }
 		set { ticketsCount = value; }
-    }
+	}
 
-	public Trip(int wayNumber, int ticketsCount)
+	[DataMember]
+    public string Time
+    {
+		get { return time; }
+		set { time = value; }
+	}
+
+
+	public Trip(int wayNumber, int ticketsCount, string time)
     {
 		this.wayNumber = wayNumber;
 		this.ticketsCount = ticketsCount;
+		this.time = time;
     }
 }
 
