@@ -81,6 +81,7 @@ public class Trip
 		set { time = value; }
 	}
 
+	public Trip() { }
 
 	public Trip(int wayNumber, int ticketsCount, string time)
     {
@@ -110,7 +111,7 @@ public class Way
 		set { wayName = value; }
 	}
 
-
+	public Way() { }
 	public Way(int wayNumber, string wayName)
     {
 		this.wayNumber = wayNumber;

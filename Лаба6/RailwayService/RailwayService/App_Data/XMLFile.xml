@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <trips>
+    <trip>
+      <wayNumber>0</wayNumber>
+      <ticketsCount>10</ticketsCount>
+      <time>10:00</time>
+    </trip>
+    <trip>
+      <wayNumber>0</wayNumber>
+      <ticketsCount>50</ticketsCount>
+      <time>20:00</time>
+    </trip>
+    <trip>
+      <wayNumber>1</wayNumber>
+      <ticketsCount>2</ticketsCount>
+      <time>12:00</time>
+    </trip>
+    <trip>
+      <wayNumber>2</wayNumber>
+      <ticketsCount>12</ticketsCount>
+      <time>14:30</time>
+    </trip>
+    <trip>
+      <wayNumber>2</wayNumber>
+      <ticketsCount>0</ticketsCount>
+      <time>15:45</time>
+    </trip>
+  </trips>
+  <ways>
+    <way>
+      <wayNumber>0</wayNumber>
+      <name>Moscow-Spb</name>
+    </way>
+    <way>
+      <wayNumber>1</wayNumber>
+      <name>Spb-Kaliningrad</name>
+    </way>
+    <way>
+      <wayNumber>2</wayNumber>
+      <name>Kaliningrad-Moscow</name>
+    </way>
+  </ways>
+</root>

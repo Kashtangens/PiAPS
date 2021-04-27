@@ -10,23 +10,18 @@ using System.Text;
 public class Service : IService
 {
 	//инициализация маршрутов
-	Way[] ways =
-	{
-		new Way(0, "Moscow-Spb"),
-		new Way(1, "Spb-Kaliningrad"),
-		new Way(2, "Kaliningrad-Moscow")
-	};
+	List<Way> ways = new List<Way>();
 
 	// инициализация рейсов
-	Trip[] trips =
-	{
-		new Trip(0, 10, "10:00"),
-		new Trip(0, 50, "20:00"),
-		new Trip(1, 2, "12:00"),
-		new Trip(2, 12, "14:30"),
-		new Trip(2, 0, "15:45")
-	};
+	List<Trip> trips = new List<Trip>(); 
 
+	DataManager dataManager = new DataManager();
+	
+	public Service()
+    {
+        dataManager.Init("C:\\Users\\arkan\\Desktop\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\PiAPS\\Лаба6\\RailwayService\\RailwayService\\App_Data\\XMLFile.xml");
+		dataManager.GetData(ref trips, ref ways);
+    }
 
 	public string GetData(int value)
 	{
@@ -107,7 +102,7 @@ public class Service : IService
 	/// </returns>
 	public bool BuyTicketOnTrip(Trip trip)
 	{
-		for (int i = 0; i < trips.Length; i++) {
+		for (int i = 0; i < trips.Count; i++) {
 			if (trips[i].Time == trip.Time && trips[i].WayNumber == trip.WayNumber)
 			{
 				if (trips[i].TicketsCount > 0)
