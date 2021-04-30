@@ -28,7 +28,7 @@ public interface IService
 
 	// Заказать билет на рейс
 	[OperationContract]
-	bool BuyTicketOnTrip(Trip trip);
+	bool BuyTicketOnTrip(string wayName, string time);
 }
 
 // Используйте контракт данных, как показано в примере ниже, чтобы добавить составные типы к операциям служб.

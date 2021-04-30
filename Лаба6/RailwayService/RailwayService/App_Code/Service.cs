@@ -19,7 +19,7 @@ public class Service : IService
 	
 	public Service()
     {
-        dataManager.Init("C:\\Users\\arkan\\Desktop\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\PiAPS\\Лаба6\\RailwayService\\RailwayService\\App_Data\\XMLFile.xml");
+        dataManager.Init("C:\\Users\\arkan\\Desktop\\Arkadiy\\Univer\\4 семак\\Проектирование и архитектура программных систем\\Лабы\\Лаба6\\RailwayService\\RailwayService\\App_Data\\XMLFile.xml");
 		dataManager.GetData(ref trips, ref ways);
     }
 
@@ -95,21 +95,29 @@ public class Service : IService
 	/// <summary>
 	/// Функция покупки билета на рейс
 	/// </summary>
-	/// <param name="trip">Рейс</param>
+	/// <param name="wayName">Название маршрута</param>
+	/// <param name="time">Время маршрута</param>
 	/// <returns>
 	/// true - если успешно купил билет;
 	/// false - если билет купить не удалось.
 	/// </returns>
-	public bool BuyTicketOnTrip(Trip trip)
+	public bool BuyTicketOnTrip(string wayName, string time)
 	{
-		for (int i = 0; i < trips.Count; i++) {
-			if (trips[i].Time == trip.Time && trips[i].WayNumber == trip.WayNumber)
+		int wayNumber = -1;
+		foreach (Way way in ways)
+		{
+			if (way.WayName == wayName)
 			{
-				if (trips[i].TicketsCount > 0)
-				{
-					trips[i].TicketsCount = trips[i].TicketsCount - 1;
-					return true;
-				}
+				wayNumber = way.WayNumber;
+			}
+		}
+		for (int i = 0; i < trips.Count; i++)
+		{
+			if (trips[i].WayNumber == wayNumber && trips[i].Time == time && trips[i].TicketsCount > 0)
+			{
+				trips[i].TicketsCount = trips[i].TicketsCount - 1;
+				dataManager.SaveData(trips, ways);
+				return true;
 			}
 		}
 		return false;

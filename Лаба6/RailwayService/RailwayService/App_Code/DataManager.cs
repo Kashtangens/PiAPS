@@ -22,6 +22,7 @@ public class DataManager
     {
         xDoc = new XmlDocument();
         xDoc.Load(path);
+        this.path = path;
     }
 
     /// <summary>
@@ -118,12 +119,49 @@ public class DataManager
 
 
         */
-        // root
-
-        // trips
-
-        // ways
-
+        xDoc = new XmlDocument();
+        xDoc.Load(path);
+        XmlElement root = xDoc.DocumentElement;
+        root.RemoveAll();
+        XmlElement xmlTrips = xDoc.CreateElement("trips");
+        XmlElement xmlWays = xDoc.CreateElement("ways");
+        // Заполняем путевки
+        foreach (Trip trip in trips)
+        {
+            XmlElement xmlTrip = xDoc.CreateElement("trip");
+            XmlElement wayNumber = xDoc.CreateElement("wayNumber");
+            XmlElement ticketsCount = xDoc.CreateElement("ticketsCount");
+            XmlElement time = xDoc.CreateElement("time");
+            XmlText wnText = xDoc.CreateTextNode(trip.WayNumber.ToString());
+            XmlText tcText = xDoc.CreateTextNode(trip.TicketsCount.ToString());
+            XmlText tText = xDoc.CreateTextNode(trip.Time);
+            wayNumber.AppendChild(wnText);
+            ticketsCount.AppendChild(tcText);
+            time.AppendChild(tText);
+            xmlTrip.AppendChild(wayNumber);
+            xmlTrip.AppendChild(ticketsCount);
+            xmlTrip.AppendChild(time);
+            xmlTrips.AppendChild(xmlTrip);
+        }
+        // Заполняем маршруты
+        foreach (Way way in ways)
+        {
+            XmlElement xmlWay = xDoc.CreateElement("way");
+            XmlElement wayNumber = xDoc.CreateElement("wayNumber");
+            XmlElement name = xDoc.CreateElement("name");
+            XmlText wnText = xDoc.CreateTextNode(way.WayNumber.ToString());
+            XmlText nText = xDoc.CreateTextNode(way.WayName);
+            wayNumber.AppendChild(wnText);
+            name.AppendChild(nText);
+            xmlWay.AppendChild(wayNumber);
+            xmlWay.AppendChild(name);
+            xmlWays.AppendChild(xmlWay);
+        }
+        // Связываем все узлы
+        root.AppendChild(xmlTrips);
+        root.AppendChild(xmlWays);
+        // Сохраняем
+        xDoc.Save(path);
     }
 
 }
