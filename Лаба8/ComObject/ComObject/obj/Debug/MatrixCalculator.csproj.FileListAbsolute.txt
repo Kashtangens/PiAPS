@@ -1,0 +1,6 @@
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба8\ComObject\ComObject\bin\Debug\MatrixCalculator.dll
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба8\ComObject\ComObject\bin\Debug\MatrixCalculator.pdb
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба8\ComObject\ComObject\bin\Debug\MatrixCalculator.tlb
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба8\ComObject\ComObject\obj\Debug\MatrixCalculator.csproj.CoreCompileInputs.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба8\ComObject\ComObject\obj\Debug\MatrixCalculator.dll
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба8\ComObject\ComObject\obj\Debug\MatrixCalculator.pdb

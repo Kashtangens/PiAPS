@@ -1,0 +1,7 @@
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба8\ComObject\ComObject\bin\Debug\ComObject.dll
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба8\ComObject\ComObject\bin\Debug\ComObject.pdb
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба8\ComObject\ComObject\obj\Debug\ComObject.csprojAssemblyReference.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба8\ComObject\ComObject\obj\Debug\ComObject.csproj.CoreCompileInputs.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба8\ComObject\ComObject\obj\Debug\ComObject.dll
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба8\ComObject\ComObject\obj\Debug\ComObject.pdb
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба8\ComObject\ComObject\bin\Debug\ComObject.tlb
