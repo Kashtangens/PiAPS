@@ -43,6 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="nwc\Logger.cs" />
+    <Compile Include="nwc\SimpleHttpRequest.cs" />
+    <Compile Include="nwc\XmlRpcDeserializer.cs" />
+    <Compile Include="nwc\XmlRpcException.cs" />
+    <Compile Include="nwc\XmlRpcExposedAttribute.cs" />
+    <Compile Include="nwc\XmlRpcRequest.cs" />
+    <Compile Include="nwc\XmlRpcRequestDeserializer.cs" />
+    <Compile Include="nwc\XmlRpcRequestSerializer.cs" />
+    <Compile Include="nwc\XmlRpcResponse.cs" />
+    <Compile Include="nwc\XmlRpcResponseDeserializer.cs" />
+    <Compile Include="nwc\XmlRpcResponseSerializer.cs" />
+    <Compile Include="nwc\XmlRpcSerializer.cs" />
+    <Compile Include="nwc\XmlRpcServer.cs" />
+    <Compile Include="nwc\XmlRpcSystemObject.cs" />
+    <Compile Include="nwc\XmlRpcXmlTokens.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

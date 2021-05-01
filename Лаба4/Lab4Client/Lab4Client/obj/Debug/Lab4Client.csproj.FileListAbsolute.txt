@@ -1,0 +1,7 @@
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба4\Lab4Client\Lab4Client\bin\Debug\Lab4Client.exe.config
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба4\Lab4Client\Lab4Client\bin\Debug\Lab4Client.exe
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба4\Lab4Client\Lab4Client\bin\Debug\Lab4Client.pdb
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба4\Lab4Client\Lab4Client\obj\Debug\Lab4Client.csprojAssemblyReference.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба4\Lab4Client\Lab4Client\obj\Debug\Lab4Client.csproj.CoreCompileInputs.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба4\Lab4Client\Lab4Client\obj\Debug\Lab4Client.exe
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба4\Lab4Client\Lab4Client\obj\Debug\Lab4Client.pdb

@@ -1,0 +1,9 @@
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба4\Lab4Server\MatrixTransformTypesLib\bin\Debug\netstandard2.0\MatrixTransformTypesLib.deps.json
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба4\Lab4Server\MatrixTransformTypesLib\bin\Debug\netstandard2.0\MatrixTransformTypesLib.dll
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба4\Lab4Server\MatrixTransformTypesLib\bin\Debug\netstandard2.0\MatrixTransformTypesLib.pdb
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба4\Lab4Server\MatrixTransformTypesLib\obj\Debug\netstandard2.0\MatrixTransformTypesLib.csprojAssemblyReference.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба4\Lab4Server\MatrixTransformTypesLib\obj\Debug\netstandard2.0\MatrixTransformTypesLib.AssemblyInfoInputs.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба4\Lab4Server\MatrixTransformTypesLib\obj\Debug\netstandard2.0\MatrixTransformTypesLib.AssemblyInfo.cs
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба4\Lab4Server\MatrixTransformTypesLib\obj\Debug\netstandard2.0\MatrixTransformTypesLib.csproj.CoreCompileInputs.cache
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба4\Lab4Server\MatrixTransformTypesLib\obj\Debug\netstandard2.0\MatrixTransformTypesLib.dll
+C:\Users\arkan\Desktop\Univer\4 семак\Проектирование и архитектура программных систем\Лабы\PiAPS\Лаба4\Lab4Server\MatrixTransformTypesLib\obj\Debug\netstandard2.0\MatrixTransformTypesLib.pdb
