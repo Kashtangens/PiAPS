@@ -13,15 +13,6 @@ namespace Lab4Client
         {
             RpcClientClass rpcClient = new RpcClientClass("http://127.0.0.1:2020");
 
-            /*int size = 4;
-            ArrayList arr = new ArrayList();
-            for (int i = 0; i < size; i++)
-            {
-                for (int j = 0; j < size; j++)
-                {
-                    arr.Add(i * size + j);
-                }
-            }*/
             string input = "";
             while (input != "Exit")
             {

@@ -36,20 +36,30 @@ namespace Lab4Server
                 }
             }
 
-            // Заменяем элементы этой диагонали нулями
-            for (int i = minElNumber % (size + 1); i < size * size; i += size + 1)
+            int x = minElNumber % size;
+            int y = (minElNumber / size);
+
+            if (y < x)
             {
-                arr[i] = 0;
-                if (i % size == size - 1)
-                {
-                    break;
-                }
+                x -= y;
+                y = 0;
+            }
+            else
+            {
+                y -= x;
+                x = 0;
+            }
+
+            // Заменяем элементы этой диагонали нулями
+            for (int i = y, j = x; i < size && j < size; i++, j++)
+            {
+                arr[i * size + j] = 0;
             }
 
             // Возводим в квадрат элементы, стоящие ниже
-            for (int i = (minElNumber % (size + 1)) / size, diagIndex = (minElNumber % (size + 1)) % size; i < size; i++, diagIndex++)
+            for (int i = y; i < size; i++, x++)
             {
-                for (int j = 0; j < diagIndex && j < size; j++)
+                for (int j = 0; j < x && j < size; j++)
                 {
                     arr[i * size + j] = (int)arr[i * size + j] * (int)arr[i * size + j];
                 }
